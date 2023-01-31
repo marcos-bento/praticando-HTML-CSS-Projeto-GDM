@@ -17,6 +17,10 @@ Também utilizei serviços como [Adobe Color][adobe] e o [Google Fonts][font].
 
 ## Histórico de lançamentos
 
+* 0.1.1
+    * 31/01/2023 - Ajustes no Layout do componente Swiper Pagination;
+    * 31/01/2023 - Correção no menu Hamburguer nas páginas GDMDev.html, GDMGames.html, Nerdversos.html e Contato.html;
+
 * 0.1.0
     * Projeto lançado, versão base que pode ser acessada clicando [aqui][linkGDM]
 
