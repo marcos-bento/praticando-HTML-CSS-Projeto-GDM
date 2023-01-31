@@ -3,7 +3,7 @@
 
   Como objeto do estudo me apoiei nos cursos de Front End da plataforma [Alura][alura]. Usei como inspiração um grupo de amigos amantes de jogos eletrônicos e cultura pop, nos chamamos de "Gangue do Machado" por isso o acrônimo GDM.
 
-![](../Header.png)
+![](/Header.PNG)
 
 ## Introdução
 
