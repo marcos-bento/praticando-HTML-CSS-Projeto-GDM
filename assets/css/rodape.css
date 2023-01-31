@@ -1,0 +1,57 @@
+
+.rodape__imagem-separacao{
+	margin-bottom: -2px;
+	width: 100%;
+}
+
+.rodape__imagem-separacao-desk{
+	display: none;
+}
+
+.rodape__texto{
+	padding-top: 0;
+	text-align: center;
+	background: var(--branco);
+	padding: 1.5em 1em 0.5em 1em;
+}
+
+.banner__rodape{
+	padding: 1em;
+	text-align: center;
+}
+
+.cabecalho__texto-logo, .cabecalho__texto{
+	display: none;
+}
+
+/* ###################### Media querie ###################### */
+
+@media screen and (min-width: 1440px){
+
+	.cabecalho__texto{
+		color: var(--preto);
+	}
+
+	strong{
+		font-weight: 700;
+		font-size: 18px;
+	}
+
+	.cabecalho__texto-logo, .cabecalho__texto{
+		display: block;
+	}
+	.rodape__imagem-separacao{
+		display: none;
+	}
+
+	.rodape__imagem-separacao-desk{
+		display: block;
+		margin-bottom: -2px;
+		width: 100%;
+	}
+
+	.rodape__texto{
+		margin-bottom: -2px;
+	}
+
+}

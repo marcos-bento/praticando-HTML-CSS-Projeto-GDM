@@ -1,0 +1,140 @@
+
+.cabecalho{
+	background: var(--branco);
+	width: 100%;
+	height: 68px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	align-items: center;
+	box-shadow: var(--sombra);
+}
+
+.cabecalho__link{
+	text-align: center;
+	text-decoration: none;
+	border-left: 1px solid var(--cinza-principal);
+}
+
+.cabecalho__imagem-tema{
+	width: 35px;
+	height: 35px;
+	margin: auto;
+}
+
+.cabecalho__imagem-tema-noturno{
+	background-image: url("../img/ModoDiurno.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
+.cabecalho__imagem-tema-diurno{
+	background-image: url("../img/ModoNoturno.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+}
+
+.cabecalho__logo{
+	width: 50px;
+	height: 50px;
+}
+
+.form-popup__texto{
+	color: var(--branco);
+}
+
+.form-popup {
+	position: fixed;
+	margin-left: 80%;
+  	display: none;
+  	text-align: center;
+  	border: 3px solid var(--branco);
+  	background-color: var(--preto);
+  	z-index: 9;
+}
+
+.menuLateralEscondido{
+	display:flex;
+	flex-direction: column;
+	position: absolute;
+	left: -100vw;
+	transition: 0.25s;
+}
+
+.menuLateralEscondido-Aberto{
+	display:flex;
+	flex-direction: column;
+	transition: 0.25s;
+	position: absolute;
+	left: 0vw;
+}
+
+.menuLateral__Lista-item-selecionado{
+	border-left: 8px solid var(--cinza-principal);
+}
+
+.menuLateral__link{
+	text-decoration: none;
+	color: var(--preto);
+	text-transform: uppercase;
+}
+
+.menuLateral__Lista-item{
+	display: flex;
+	padding: 1.5em;
+	background-color: var(--branco);
+	margin-right: 15em;
+	align-items: center;
+	border-bottom: 0.5px solid var(--cinza-principal);
+}
+
+.menuLateral__imagem{
+	width: 24px;
+	height: 24px;
+	padding-right: 1em;
+}
+
+.cabecalho__menu{
+	transition: 0.25s;
+	border-left: none;
+}
+
+.cabecalho__menu-aberto{
+	transform: rotate(90deg);
+	transition: 0.25s;
+}
+
+.cabecalho__menu{
+	text-align: center;
+	text-decoration: none;
+}
+
+/* ###################### Media querie ###################### */
+
+@media screen and (min-width: 1440px){
+
+	.cabecalho__link{
+		border-left: none;
+	}
+
+	.cabecalho__link-logo{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 18px;
+	}
+
+	.cabecalho__link:hover{
+		transform: scale(1.2);
+		transition: 0.25s;
+	}
+
+	.menuLateral__Lista-item:hover{
+		background-color: var(--cinza-principal);
+	}
+
+	.menuLateralEscondido{
+		width: 40%;
+	}
+}

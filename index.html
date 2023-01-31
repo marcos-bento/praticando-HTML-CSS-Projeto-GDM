@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GDM - Home</title>
+
+	<!-- Favicon -->	
+	<link rel="shortcut icon" href="assets/img/gdmFavicon.png">
+
+	<!-- Plugin Swipper -->	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+	<!-- Arquivos CSS internos -->
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/estilo.css">
+
+	<!-- Fontes do Google (Tipografia) -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<!--------------------------------------------------------------------->
+<body>
+	<header class="cabecalho">
+		<a href="#" class="cabecalho__menu">
+			<img src="assets/img/Menu.png" alt="Menu Hamburguer" class="cabecalho__imagem">
+			<p class="cabecalho__texto">Menu</p>
+		</a>
+
+		<a href="index.html" class="cabecalho__link cabecalho__link-logo">
+			<img src="assets/img/Logo.png" alt="Logotipo da GDM" class="cabecalho__imagem cabecalho__logo">
+			<p class="cabecalho__texto cabecalho__texto-logo"><strong>Gangue</strong> do Machado</p>
+		</a>
+		
+		<a href="contato.html" class="cabecalho__link">
+			<img src="assets/img/email.png" alt="Entrar em contato" class="cabecalho__imagem">
+			<p class="cabecalho__texto">Entrar em contato</p>
+		</a>
+		
+		<a href="#" class="cabecalho__link cabecalho__link-tema ">
+			<div class="cabecalho__imagem-tema cabecalho__imagem-tema-diurno"></div>
+			<p class="cabecalho__texto">Mudar tema</p>
+		</a>
+	
+		<section class="menuLateral">
+		
+			<div class="form-popup" id="myForm">
+				<p class="form-popup__texto">Tema alterado</p>
+			</div>
+
+			<ul class="menuLateralEscondido">
+				<a href="index.html" class="menuLateral__link">
+					<li class="menuLateral__Lista-item menuLateral__Lista-item-selecionado">
+						<img src="assets/img/MenuHome.png" alt="Menu principal" class="menuLateral__imagem">
+						<p>Home</p>
+					</li>
+				</a>
+				<a href="gdmgames.html" class="menuLateral__link">
+					<li class="menuLateral__Lista-item">
+						<img src="assets/img/Menugames.png" alt="Menu principal" class="menuLateral__imagem">
+						<p>GDM Games</p>
+					</li>
+				</a>
+				<a href="gdmdev.html" class="menuLateral__link">
+					<li class="menuLateral__Lista-item">
+						<img src="assets/img/Menudev.png" alt="Menu principal" class="menuLateral__imagem">
+						<p>GDM Dev</p>
+					</li>
+				</a>
+				<a href="nerdversos.html" class="menuLateral__link">
+					<li class="menuLateral__Lista-item">
+						<img src="assets/img/Menunerdversos.png" alt="Menu principal" class="menuLateral__imagem">
+						<p>Nerdversos</p>
+					</li>
+				</a>
+				<a href="contato.html" class="menuLateral__link">
+					<li class="menuLateral__Lista-item">
+						<img src="assets/img/Menucontato.png" alt="Menu principal" class="menuLateral__imagem">
+						<p>Contato</p>
+					</li>
+				</a>
+			</ul>
+
+		</section>
+	</header>	
+	<main>
+		<section class="banner">
+			
+			<h2 class="banner__titulo">
+				Seja bem vindo!
+			</h2>
+			<p class="banner__texto">
+				Qual o seu estilo?
+			</p>
+
+		</section>
+
+		<section class="topico topico__primario">
+			
+			<h2 class="topico__titulo">GDM Games</h2>
+			<div class="topico__cartao">
+				<div class="topico__cartao-esquerda">
+					<h3 class="topico__cartao-titulo">Jogos eletrônicos de computador!</h3>
+					<p class="topico__cartao-texto">Jogando online no Discord 7 dias na semana!</p>
+					<div class="topico__cartao-icones">
+						<img src="assets/img/Discord.png" alt="Logo do Discord" class="topico__cartao-icone">
+						<img src="assets/img/Steam.png" alt="Logo da Steam" class="topico__cartao-icone">
+						<img src="assets/img/EpicGames.png" alt="Logo da Epic Games" class="topico__cartao-icone">
+					</div>
+				</div>
+				<div class="topico__cartao-direita">
+					<img src="assets/img/GDM Games.jpg" alt="Pessoa jogando no computador" class="topico__cartao-imagem">
+					<a href="gdmgames.html" class="topico__cartao-botao">Saiba mais!</a>
+				</div>
+			</div>
+
+			<p class="topico__texto">Alguns jogos que jogamos:</p>
+			
+			<div class="swiper">
+				<!-- If we need pagination -->
+				<div class="swiper-pagination"></div>
+
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+				    <!-- Slides -->
+				    <div class="swiper-slide"><img src="assets/img/capaJogo1.jpg" alt="Capa do jogo League of Legends" class="carrossel__imagem"></div>
+				    <div class="swiper-slide"><img src="assets/img/capaJogo2.jpg" alt="Capa do jogo Minecraft" class="carrossel__imagem"></div>
+				    <div class="swiper-slide"><img src="assets/img/capaJogo3.jpg" alt="Capa do jogo Counter Strike" class="carrossel__imagem"></div>
+				    <div class="swiper-slide"><img src="assets/img/capaJogo4.jpg" alt="Capa do jogo Raft" class="carrossel__imagem"></div>
+				    <div class="swiper-slide"><img src="assets/img/capaJogo5.jpg" alt="Capa do jogo 7 Days to Die" class="carrossel__imagem"></div>
+				    <div class="swiper-slide"><img src="assets/img/capaJogo6.jpg" alt="Capa do jogo Factorio" class="carrossel__imagem"></div>
+				    <div class="swiper-slide"><img src="assets/img/capaJogo7.jpg" alt="Capa do jogo Satisfactory" class="carrossel__imagem"></div>
+				    <div class="swiper-slide"><img src="assets/img/capaJogo8.jpg" alt="Capa do jogo Space Engineer" class="carrossel__imagem"></div>
+				</div>
+				<!-- If we need navigation buttons -->
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
+
+		</section>
+
+		<section class="topico topico__secundario">
+			
+			<h2 class="topico__titulo topico__titulo2">GDM Dev</h2>
+			<div class="topico__cartao topico__cartao-secundario">
+				<div class="topico__cartao-esquerda">
+					<h3 class="topico__cartao-titulo">Desenvolvimento de sistemas é aqui!</h3>
+					<p class="topico__cartao-texto">Compartilhando conhecimento e criando coisas...</p>
+					<div class="topico__cartao-icones">
+						<img src="assets/img/Discord.png" alt="Logo do Discord" class="topico__cartao-icone">
+						<img src="assets/img/Whatsapp.png" alt="Logo da Whatsapp" class="topico__cartao-icone">
+						<img src="assets/img/Telegram.png" alt="Logo do Telegram" class="topico__cartao-icone">
+					</div>
+				</div>
+				<div class="topico__cartao-direita">
+					<img src="assets/img/GDM Dev.jpg" alt="Um aparelho smartphone com código escrito na tela" class="topico__cartao-imagem">
+					<a href="gdmdev.html" class="topico__cartao-botao">Saiba mais!</a>
+				</div>
+			</div>
+
+			<p class="topico__texto topico__texto2">Algumas linguagens que programamos:</p>
+
+			<div class="swiper">
+				<!-- If we need pagination -->
+				<div class="swiper-pagination"></div>
+
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+				    <!-- Slides -->
+				    <div class="swiper-slide">
+				    	<img src="assets/img/Javascript.png" alt="Logo do Javascript" class="carrossel__imagem">
+				    	<p class="swiper__texto">Javascript</p>
+				    </div>
+				    <div class="swiper-slide">
+				    	<img src="assets/img/HTML.png" alt="Logo do HTML" class="carrossel__imagem">
+				    	<p class="swiper__texto">HTML5</p>
+				    </div>
+				    <div class="swiper-slide">
+				    	<img src="assets/img/CSS.png" alt="Logo do CSS" class="carrossel__imagem">
+				    	<p class="swiper__texto">CSS3</p>
+				    </div>
+				    <div class="swiper-slide">
+				    	<img src="assets/img/Cpp.png" alt="Logo do CPP" class="carrossel__imagem">
+				    	<p class="swiper__texto">C++</p>
+				    </div>
+				    <div class="swiper-slide">
+				    	<img src="assets/img/CSharp.png" alt="Logo do CSharp" class="carrossel__imagem">
+				    	<p class="swiper__texto">C#</p>
+				    </div>
+				    <div class="swiper-slide">
+				    	<img src="assets/img/Delphi.png" alt="Logo do Delphi" class="carrossel__imagem">
+				    	<p class="swiper__texto">Delphi</p>
+				    </div>
+				    <div class="swiper-slide">
+				    	<img src="assets/img/Python.png" alt="Logo do Python" class="carrossel__imagem">
+				    	<p class="swiper__texto">Python</p>
+				    </div>
+				</div>
+				<!-- If we need navigation buttons -->
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
+
+		</section>
+
+		<section class="topico topico__terciario">
+			
+			<h2 class="topico__titulo topico__titulo3">Nerdversos</h2>
+			<div class="topico__cartao topico__cartao-terciario">
+				<div class="topico__cartao-esquerda">
+					<h3 class="topico__cartao-titulo">Anime e cultura pop em um só lugar!</h3>
+					<p class="topico__cartao-texto">Conversamos sobre todas novidades!</p>
+					<div class="topico__cartao-icones-terciario">
+						<img src="assets/img/crunchyroll.png" alt="Logo do Crunchyroll" class="topico__cartao-icone-terciario">
+						<img src="assets/img/marvel.png" alt="Logo da Marvel" class="topico__cartao-icone-medio">
+					</div>
+				</div>
+				<div class="topico__cartao-direita">
+					<img src="assets/img/NerdVersos.jpg" alt="Um Gundam de costas olhando para o céu" class="topico__cartao-imagem">
+					<a href="nerdversos.html" class="topico__cartao-botao">Saiba mais!</a>
+				</div>
+			</div>
+
+			<p class="topico__texto topico__texto3">Gostamos de assistir:</p>
+
+			<div class="swiper">
+				<!-- If we need pagination -->
+				<div class="swiper-pagination"></div>
+
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+				    <!-- Slides -->
+				    <div class="swiper-slide">
+				    	<img src="assets/img/AnimeCapa1.jpg" alt="Capa do anime Bluelock" class="carrossel__imagem">
+				    </div>
+				    <div class="swiper-slide">
+				    	<img src="assets/img/AnimeCapa2.jpg" alt="Capa do anime Chainsaw Man" class="carrossel__imagem">
+				    </div>
+				    <div class="swiper-slide">
+				    	<img src="assets/img/AnimeCapa3.jpg" alt="Capa do filme Spider Man" class="carrossel__imagem">
+				    </div>
+				    <div class="swiper-slide">
+				    	<img src="assets/img/AnimeCapa4.jpg" alt="Capa do filme Urso do Pó Branco" class="carrossel__imagem">
+				    </div>
+				    <div class="swiper-slide">
+				    	<img src="assets/img/AnimeCapa5.jpg" alt="Capa do anime Dragon Ball Z" class="carrossel__imagem">
+				    </div>
+				</div>
+				<!-- If we need navigation buttons -->
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
+		</section>
+
+	</main>
+	<footer class="rodape">
+		<img src="assets/img/rodape.png" alt="Imagem de nuvem" class="rodape__imagem-separacao">
+		<img src="assets/img/rodapeDesktop.png" alt="Imagem de nuvem" class="rodape__imagem-separacao-desk">
+		<p class="rodape__texto">GRUPO GDM - Alguns direitos reservados</p>
+		<p class="rodape__texto">Desde 1900 e bolinha, jogando e dando risadas</p>
+	</footer>
+<!-- Código Javascript para importar via CDN (Content Delivery Network) o Plugin Swipper -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<!-- Código Javascript para inicializar o Plugin Swipper -->
+<script>
+	const swiper = new Swiper('.swiper', {
+		spaceBetween: 10,
+		slidesPerView: 3,
+	    pagination: {
+			el: '.swiper-pagination',
+			type: 'bullets',
+			clickable: true,
+		},
+		navigation: {
+	        nextEl: '.swiper-button-next',
+	        prevEl: '.swiper-button-prev',
+	    },
+	    breakpoints: {
+			768: {
+				slidesPerView: 5,
+			},
+			1440: {
+				slidesPerView: 8,
+			}
+		}
+
+	});
+</script>
+<script src="index.js"></script>
+</body>
+</html>

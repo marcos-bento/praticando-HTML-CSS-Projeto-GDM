@@ -1,0 +1,34 @@
+@import	url("cabecalho.css");
+@import	url("banner.css");
+@import	url("topicos.css");
+@import	url("rodape.css");
+
+:root{
+	--degrade-fundo: linear-gradient(228.28deg, #3590AB 1.82%, rgba(53, 144, 171, 0) 103.98%);
+	--degrade-fundo-dia: linear-gradient(235.59deg, #F8E6C6 -2.45%, rgba(248, 230, 198, 0) 93.54%);
+	--fonte-principal: "Quicksand";
+	--branco: #FFFFFF;
+	--preto: #000000;
+	--laranja: #FA913E;
+	--laranja-sombra: #E3622D;
+	--cor-barra: #617378;
+	--cor-barra-diurno: #FFD791;
+	--cor-do-botao: #7BD651;
+	--cor-do-botao-borda: #5C8449;
+	--cinza-principal: #898989;
+	--sombra: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+body{
+	font-family: var(--fonte-principal);
+	background: var(--degrade-fundo);
+	font-size: 16px;
+}
+
+.body__paginas{
+	background: var(--branco);
+}
+
+.body__modo-diurno{
+	background: var(--degrade-fundo-dia);
+}

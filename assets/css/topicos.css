@@ -1,0 +1,164 @@
+
+.topico__titulo{
+	text-transform: uppercase;
+	color: var(--branco);
+	background-color: var(--cor-barra);
+	letter-spacing: 2px;
+	padding: 1em 0;
+	box-shadow: var(--sombra);
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+.topico__titulo-diurno{
+	background: var(--cor-barra-diurno);
+	color: var(--preto);
+}
+
+.topico__cartao{
+	background-color: var(--branco);
+	margin: 1em;
+	box-shadow: var(--sombra);
+	border-radius: 4px;
+	margin-bottom: 1em;
+}
+
+.topico__cartao-titulo{
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 1em;
+	margin-left: 1em;
+	padding-bottom: 1em;
+}
+
+.topico__cartao-texto{
+	margin-left: 1em;
+}
+
+.topico__cartao{
+	display: flex;
+}
+
+.topico__cartao-direita{
+	text-align: center;
+}
+
+.topico__cartao-imagem{
+	padding: 1em;
+	margin: 0 auto 0.7em auto;
+}
+
+.topico__cartao-botao{
+	text-decoration: none;
+	color: var(--branco);
+	background-color: var(--cor-do-botao);
+	border-bottom: 8px solid var(--cor-do-botao-borda);
+	padding: 1em 2.1em;
+	margin: 0 auto 2em auto;
+	white-space: nowrap;
+}
+
+.topico__cartao-icones{
+	margin: 2em 1em 1em 1em;
+}
+
+.topico__cartao-icones-terciario{
+	margin: 1.2em 1em 1em 1em;
+}
+
+.topico__cartao-icone{
+	width: 34px;
+	height: 34px;
+	padding: 0 0.5em;
+}
+
+.topico__cartao-icone-terciario{
+	width: 34px;
+	height: 34px;
+	padding: 0 0.5em 1em;
+}
+
+.topico__cartao-icone-medio{
+	width: 64px;
+	height: 64px;
+}
+
+.topico__texto{
+	text-align: center;
+	color: var(--branco);
+	letter-spacing: 3px;
+	margin-bottom: 1.1em;
+}
+
+.topico__texto-diurno{
+	color: var(--preto);
+}
+
+.swiper-pagination{
+	position: initial;
+	margin: 0 0 1.1em 0;
+}
+
+.swiper{
+	margin-bottom: 2em;
+}
+
+.swiper__texto{
+	text-align: center;
+}
+
+/* ###################### Media querie ###################### */
+
+@media screen and (min-width: 654px){
+	
+	.topico__cartao-imagem{
+		margin: auto;
+	}
+
+	.topico__cartao{
+		justify-content: center;
+	}
+
+	.topico__cartao-direita{
+		display:flex;
+	}
+
+	.topico__cartao-botao{
+		margin: auto;
+		padding: 2em;
+		border-radius: 20px;
+	}
+}
+
+/* ###################### Media querie ###################### */
+
+@media screen and (min-width: 768px){
+	.swiper-wrapper{
+		text-align: center;
+	}
+}
+
+/* ###################### Media querie ###################### */
+
+@media screen and (min-width: 1440px){
+	.swiper-wrapper{
+		justify-content: center;
+	}
+
+	.topico__cartao{
+		width: 50%;
+		margin: 2em auto;
+	}
+
+	.topico__cartao-direita{
+		padding-right: 1em;
+	}
+
+	.topico__cartao-botao:hover{
+		transform: scale(1.2);
+		transition: 0.25s;
+		background-color: var(--laranja);
+		border-bottom: 8px solid var(--laranja-sombra);
+	}
+
+}

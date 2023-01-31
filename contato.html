@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contato</title>
+
+<!-- Favicon -->	
+	<link rel="shortcut icon" href="assets/img/gdmFavicon.png">
+
+<!-- Plugin Swipper -->	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+<!-- Arquivos CSS internos -->
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/estilo.css">
+	<link rel="stylesheet" href="assets/css/paginas.css">
+
+<!-- Fontes do Google (Tipografia) -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body class="body__paginas">
+	<header class="cabecalho">
+		<a href="#" class="cabecalho__menu">
+			<img src="assets/img/Menu.png" alt="Menu Hamburguer" class="cabecalho__imagem">
+			<p class="cabecalho__texto">Menu</p>
+		</a>
+
+		<a href="index.html" class="cabecalho__link cabecalho__link-logo">
+			<img src="assets/img/Logo.png" alt="Logotipo da GDM" class="cabecalho__imagem cabecalho__logo">
+			<p class="cabecalho__texto cabecalho__texto-logo"><strong>Gangue</strong> do Machado</p>
+		</a>
+		
+		<a href="contato.html" class="cabecalho__link">
+			<img src="assets/img/email.png" alt="Entrar em contato" class="cabecalho__imagem">
+			<p class="cabecalho__texto">Entrar em contato</p>
+		</a>
+		
+		<a href="#" class="cabecalho__link cabecalho__link-tema ">
+			<div class="cabecalho__imagem-tema cabecalho__imagem-tema-diurno"></div>
+			<p class="cabecalho__texto">Mudar tema</p>
+		</a>
+	</header>
+
+	<main>
+		<section class="menuLateral">
+		
+			<div class="form-popup" id="myForm">
+				<p class="form-popup__texto">Tema alterado</p>
+			</div>
+
+						<ul class="menuLateralEscondido">
+				<a href="index.html" class="menuLateral__link">
+					<li class="menuLateral__Lista-item menuLateral__Lista-item-selecionado">
+						<img src="assets/img/MenuHome.png" alt="Menu principal" class="menuLateral__imagem">
+						<p>Home</p>
+					</li>
+				</a>
+				<a href="gdmgames.html" class="menuLateral__link">
+					<li class="menuLateral__Lista-item">
+						<img src="assets/img/Menugames.png" alt="Menu principal" class="menuLateral__imagem">
+						<p>GDM Games</p>
+					</li>
+				</a>
+				<a href="gdmdev.html" class="menuLateral__link">
+					<li class="menuLateral__Lista-item">
+						<img src="assets/img/Menudev.png" alt="Menu principal" class="menuLateral__imagem">
+						<p>GDM Dev</p>
+					</li>
+				</a>
+				<a href="nerdversos.html" class="menuLateral__link">
+					<li class="menuLateral__Lista-item">
+						<img src="assets/img/Menunerdversos.png" alt="Menu principal" class="menuLateral__imagem">
+						<p>Nerdversos</p>
+					</li>
+				</a>
+				<a href="contato.html" class="menuLateral__link">
+					<li class="menuLateral__Lista-item">
+						<img src="assets/img/Menucontato.png" alt="Menu principal" class="menuLateral__imagem">
+						<p>Contato</p>
+					</li>
+				</a>
+			</ul>
+
+		</section>
+			
+		<section class="banner">
+			
+			<h2 class="banner__titulo banner__titulo-paginas">
+				Nos mande um e-mail!
+			</h2>
+
+		</section>
+
+		<section class="topo">
+			
+			<h2 class="topo__titulo">MAS ANTES...</h2>
+			
+			<img src="assets/img/BannerContato.jpg" alt="Semáforo com o vermelho de Pare!" class="topo__banner">
+
+			<h2 class="topo__texto-titulo">Antes de enviar o formulário...</h2>
+			<p class="topo__texto">Sabe realmente do que se trata essa página, certo? Nós apenas jogamos e nos divertimos juntos falando sobre diversos assuntos, não vendemos e nem temos intenção de ofender ninguém!</p>
+			
+		</section>
+
+		<section class="pagina__contato">
+
+			<h2 class="topo__titulo topo__titulo2">AGORA SIM!</h2>
+			<div class="pagina__conteudo">
+				<div class="pagina__conteudo-texto-vertical">
+					CONTATO
+				</div>
+				<div class="pagina__conteudo-direita">
+					<p class="contato__label">Nickname:</p>
+					<input type="text" class="contato__textbox contato__textbox-nick" placeholder="Digite seu nick/apelido">
+					<p class="contato__label">E-mail:</p>
+					<input type="e-mail" class="contato__textbox contato__textbox-email" placeholder="Digite seu melhor e-mail">
+					<p class="contato__label">Assunto:</p>
+					<textarea class="contato__textbox contato__textbox-grande"></textarea>
+				</div>
+			</div>
+			<a href="#" class="topico__cartao-botao contato__botao">Enviar!</a>
+		</section>
+	</main>
+	<footer class="rodape">
+		<h2 class="banner__titulo banner__titulo-paginas banner__rodape">
+			Até loguinho!
+		</h2>
+		<p class="rodape__texto">GRUPO GDM - Alguns direitos reservados</p>
+		<p class="rodape__texto">Desde 1900 e bolinha, jogando e dando risadas</p>
+	</footer>
+
+<script src="paginas.js"></script>
+</body>
+</html>
