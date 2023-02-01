@@ -31,4 +31,4 @@ Também utilizei serviços como [Adobe Color][adobe] e o [Google Fonts][font].
 [figma]: https://www.figma.com/community/file/1202069326668832530
 [font]: https://fonts.google.com/
 [adobe]: https://color.adobe.com/pt/create
-[linkGDM]: https://praticando-html-css-projeto-gdm.vercel.app/index.html
+[linkGDM]: https://praticando-html-css-projeto-gdm-usq7.vercel.app/index.html
